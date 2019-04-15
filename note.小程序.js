@@ -1,4 +1,5 @@
-//WeUI WXSS   ui框架
+//WeUI WXSS   原生ui框架
+//vantWeapp   有赞的ui框架
 //https://github.com/Tencent/weui-wxss
 
 //·小程序-工程化
@@ -61,16 +62,16 @@ package.json
 //尺寸单位 rpx
 const dsWidth = 750;
 
-export const screenHeightOfRpx = function() {
-	return (750 / env.screenWidth) * env.screenHeight;
+export const screenHeightOfRpx = function () {
+    return (750 / env.screenWidth) * env.screenHeight;
 };
 
-export const rpxToPx = function(rpx) {
-	return (env.screenWidth / 750) * rpx;
+export const rpxToPx = function (rpx) {
+    return (env.screenWidth / 750) * rpx;
 };
 
-export const pxToRpx = function(px) {
-	return (750 / env.screenWidth) * px;
+export const pxToRpx = function (px) {
+    return (750 / env.screenWidth) * px;
 };
 
 //内联样式
